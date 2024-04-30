@@ -1,0 +1,120 @@
+.navbarMain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .responsiveNav {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #0000007e;
+    backdrop-filter: blur(7px);
+    transition: all 500ms;
+  }
+  
+  .openNav {
+    right: 0;
+  }
+  
+  .closeNav {
+  right: 100%;
+  
+  }
+  
+  
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    background-color: #212529;
+  }
+  .navul{
+    display:flex ;
+    width: 60%;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  li{
+    list-style: none;
+    color: white;
+  }
+  .open  {
+    color: white;
+  }
+  .closebtn  {
+    color: white;
+  }
+ 
+  a{
+    text-decoration: none;
+  }
+  .navul li {
+    position: relative; /* Required for pseudo-element */
+    overflow: hidden; /* Hide the initial border */
+}
+
+h3{
+  color: #639cd9;
+}
+.navul li::after {
+    content: ''; /* Create a pseudo-element */
+    position: absolute; /* Position it relative to the list item */
+    bottom: 0; /* Align it at the bottom */
+    left: 0; /* Initially start from the left */
+    width: 0; /* Initially hidden */
+    height: 2px; /* Height of the border */
+    background-color: #639cd9; /* Color of the border */
+    transition: width 0.5s ease; /* Transition effect */
+}
+
+.navul li:hover::after {
+    width: 100%; /* Expand the width on hover */
+}
+  
+  @media screen and (max-width: 760px) {
+  
+  
+    
+    .navul{
+     display: none;
+    }
+    
+    .navbarMain {
+      padding: 5px 19px;
+      background-color: #212529;
+    }
+    .navbar {
+      justify-content: start;
+    }
+  }
+  
+  @media screen and (min-width: 760px) {
+  
+  
+    
+    .open {
+      display: none;
+    }
+  }
+  
+  .mobileul{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    gap: 14px;
+    padding-left: 5px;
+  }
+  .closebtn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
