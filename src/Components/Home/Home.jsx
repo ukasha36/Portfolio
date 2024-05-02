@@ -11,7 +11,7 @@ const Home = () => {
     <div className='maindiv'>
       <h1>Muhammad Ukasha</h1>
       <div className='typewriter'>
-       <span> I am a </span>
+       <p className='title'> I am a </p>
       <Typewriter
         options={{
           strings: [ " Developer" , " Programmer" , " AI enthusiast",  " Freelancer" ],
