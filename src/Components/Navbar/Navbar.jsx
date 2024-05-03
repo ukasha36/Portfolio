@@ -27,9 +27,7 @@ const Navbar = () => {
             </Link>
 
             <ul className='navul'>
-            <Link  to="/">
-                <li>Home</li>
-                </Link>
+          
                 <Link  to="/about">
                 <li>About</li>
                 </Link>
@@ -43,10 +41,14 @@ const Navbar = () => {
                 <li>Projects</li>
                 </Link>
                 <Link  to="/contact">
-                <li>Contact Me</li>
+                <li>Hire Me</li>
                 </Link>
+                <a href="https://github.com/ukasha36" className="navbtn"> Github Profile</a>
              </ul>
-         
+
+
+              
+              
           
           </div>
 

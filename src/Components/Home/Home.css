@@ -54,7 +54,14 @@
     text-align: center;
   }
     
-     
+  .title{
+    font-size: 30px;
+        line-height: 48px;
+        color: rgb(242, 243, 244);
+ 
+        
+ 
+  } 
   }
   .title{
     font-size: 22px;

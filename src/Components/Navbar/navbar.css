@@ -30,13 +30,14 @@
     justify-content: space-around;
     width: 100%;
     align-items: center;
-    height: 50px;
+    height: 68px;
     background-color: #212529;
   }
   .navul{
     display:flex ;
     width: 60%;
     justify-content: center;
+    align-items: center;
     gap: 50px;
   }
   
@@ -117,4 +118,22 @@ h3{
     position: absolute;
     right: 10px;
     top: 10px;
+  }
+
+  .navbtn{
+    border: 1px solid rgb(133, 76, 230);
+    color: rgb(133, 76, 230);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.6s ease-in-out 0s;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
   }

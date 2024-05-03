@@ -26,6 +26,7 @@ const Skills = () => {
         </p>
         </div>
         <div className="skillsdiv">
+
           <div className="frontend">
             <div className="frontendtitle">
               <h2> Frontend </h2>
@@ -93,6 +94,11 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
+
+
+
+          
         </div>
       </div>
     </>
