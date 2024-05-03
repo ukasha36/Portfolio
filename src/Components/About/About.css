@@ -1,12 +1,22 @@
 .aboutmain {
-    width: 100%;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    flex-direction: column;
-    height: 150vh;
-    background-color: #212529;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 160vh;
+  background-color: #212529;
+  padding-top: 2rem;
+  gap: 30px;
+  padding-bottom: 2rem;
 
+  }
+  .abouttitle > h2 {
+    font-size: 52px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(242, 243, 244);
 
   }
 .aboutdiv {
@@ -22,6 +32,9 @@
     display: flex;
     justify-content: space-between;
   }
+.abouttext > h4{
+  color: rgb(133, 76, 230);
+  }
 .aboutimg {
     display: flex;
     justify-content: center;
@@ -32,12 +45,12 @@
     object-fit: cover;
         height: 500px;
     width: 350px;
-    border: 1px solid #639cd9;
+    border: 1px solid rgb(133, 76, 230);;
     border-radius: 8px ;
     padding: 20px;
   }
   h1{
-    color: #639cd9;
+    color: rgb(133, 76, 230);;
 }
 h4{
     text-align: left;
@@ -49,8 +62,7 @@ p{
 
 @media screen and (max-width: 760px) {
     .aboutmain {
-        height: 120rem;
-    
+      height: 150rem;    
     
       }
       .aboutdiv  {
@@ -90,27 +102,27 @@ p{
   }
 
   span{
-    font-size: 80px;
+    font-size: 22px;
     font-weight: 600;
   }
 
   .number1{
 
-    border: 1px solid #639cd9;
+    border: 1px solid rgb(133, 76, 230);;
     border-radius: 8px ;
     padding: 20px;
   }
 
   .number2{
 
-    border: 1px solid #639cd9;
+    border: 1px solid rgb(133, 76, 230);;
     border-radius: 8px ;
     padding: 20px;
   }
 
   .number3{
 
-    border: 1px solid #639cd9;
+    border: 1px solid rgb(133, 76, 230);;
     border-radius: 8px ;
     padding: 20px;
   }

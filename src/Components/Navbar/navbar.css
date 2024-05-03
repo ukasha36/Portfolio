@@ -69,7 +69,7 @@ h3{
     left: 0; /* Initially start from the left */
     width: 0; /* Initially hidden */
     height: 2px; /* Height of the border */
-    background-color: #639cd9; /* Color of the border */
+    background-color:   rgb(133, 76, 230); /* Color of the border */
     transition: width 0.5s ease; /* Transition effect */
 }
 

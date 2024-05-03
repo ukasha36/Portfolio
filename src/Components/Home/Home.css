@@ -11,16 +11,18 @@
 .typewriter{
     display: flex;
     gap: 5px;
+    align-items: center;
 }
+ 
 
 
 .Typewriter__wrapper {
-    font-size: 30px;
-    color: #639cd9; /* Adjust size as needed */
+  cursor: pointer;
+  color: rgb(133, 76, 230);/* Adjust size as needed */
     font-weight: 600;
   }
 .Typewriter__cursor {
-    color: #639cd9; /* Adjust size as needed */
+    color: rgb(133, 76, 230);; /* Adjust size as needed */
   }
  
   h1{
@@ -37,7 +39,7 @@
   }
   .icon{
     font-size: 40px;
-    color: #639cd9;
+    color: rgb(133, 76, 230);
     background: black;
     padding: 5px 5px;
     border: 1px solid transparent;
@@ -55,6 +57,10 @@
      
   }
   .title{
-    font-size: 45px;
-    color: white;
+    font-size: 22px;
+        line-height: 48px;
+        color: rgb(242, 243, 244);
+ 
+        
+ 
   }

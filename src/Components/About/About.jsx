@@ -7,7 +7,9 @@ const About = () => {
   return (
     <>
       <div className="aboutmain">
-        <h1>Passion Fuels Purpose! </h1>
+        <div className="abouttitle">
+        <h2>Passion Fuels Purpose! </h2>
+        </div>
         <div className="aboutdiv">
           <div className="abouttext">
             <h4>BIOGRAPHY:</h4>
