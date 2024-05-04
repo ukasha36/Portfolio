@@ -1,3 +1,7 @@
+
+import innovative from '../assets/innovativetech.jpg'
+
+
 export const Bio = {
   name: "Muhammad Ukasha",
   roles: ["Web Developer", "Programmer"],
@@ -203,7 +207,7 @@ export const projects = [
     date: "Dec 2023",
     description:
       "Crafted a web app for an Innovative Tech Company, facilitating seamless service reviews and enhancing user engagement. Leveraged modern web tech for intuitive navigation and user-centric experiences, enabling effortless sharing of insights.",
-    image: "/src/assets/innovativetech.jpg",
+    image: innovative,
     tags: ["Html  ", "Css", "TailwindCss", "ReactJS ", "Firebase"],
     category: "web app",
     webapp: "americanwebexpress.com",

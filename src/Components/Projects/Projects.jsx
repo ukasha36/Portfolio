@@ -4,6 +4,8 @@ import { projects } from "../../data/Data";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
+
+
 const Projects = () => {
   AOS.init();
   return (
