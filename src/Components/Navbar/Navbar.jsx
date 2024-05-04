@@ -18,12 +18,18 @@ const Navbar = () => {
       setShowNav(false);
   };
   
+  const name1 = "Ukasha";
+const name2 = "Shabbir";
+
+const result1 = "<" + name1 + " / " + name2 + ">";
+
+
     return (
       <div>
         <nav className="navbarMain">
             <div className='navbar'>
             <Link  to="/">
-            <h3>Devfolio</h3>
+            <h3 className='logo'>{result1} </h3>
             </Link>
 
             <ul className='navul'>

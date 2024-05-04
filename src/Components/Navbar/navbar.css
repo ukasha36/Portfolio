@@ -139,3 +139,46 @@ h3{
   a{
     text-decoration: none;
   }
+
+
+  @media only screen and (min-width: 760px) and (max-width: 1200px) {
+
+
+    .navbar {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      height: 68px;
+      justify-content: flex-start;
+      background-color: #212529;
+      gap: 50px;
+  }
+
+  .navul {
+    display: flex;
+    width: 77%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbarbtn{
+border: 1px solid rgb(133, 76, 230);
+color: rgb(133, 76, 230);
+justify-content: center;
+display: flex;
+align-items: center;
+border-radius: 20px;
+cursor: pointer;
+padding: 9px 10px;
+font-size: 16px;
+font-weight: 500;
+transition: all 0.6s ease-in-out 0s;
+text-decoration: none;
+}
+
+.logo{
+  font-size: 12px;
+  margin-left: 10px;
+}
+  }
