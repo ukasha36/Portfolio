@@ -18,6 +18,11 @@
     color: rgb(242, 243, 244);
 
 }
+.skillstitle > p {
+    font-weight: 500;
+
+
+}
 .skillsdiv{
     width: 100%;
     height: 90%;

@@ -11,7 +11,7 @@ const Experience = () => {
   return (
     <>
       <div className="mainexperience">
-        <div className="skillstitle">
+        <div className="experiencetitle">
           <h2> Experience</h2>
           <p>
             My work experience as a software engineer and working on different

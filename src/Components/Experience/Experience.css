@@ -10,7 +10,17 @@
 }
 
 
+.experiencetitle > h2{
+    font-size: 52px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(242, 243, 244);
+}
+.experiencetitle > p{
+    font-weight: 500;
 
+}
 
 
 

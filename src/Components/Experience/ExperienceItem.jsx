@@ -38,7 +38,7 @@ switch (val.id) {
                   <ul className="jobul">
                     <div className="jobtitle">
                       <div>
-                        {" "}
+                       
                         <img src={val.img} alt={val.role} className="jobimg" />
                       </div>
                       <div className="jobdetails">
@@ -65,6 +65,7 @@ switch (val.id) {
         
                   </ul>
                 </div>
+                
                 </div>
               );
             })}

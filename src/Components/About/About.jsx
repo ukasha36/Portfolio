@@ -2,14 +2,57 @@ import React from "react";
 import "./About.css";
 import img from "../../assets/ukasha.jpg";
 import AnimatedNumbers from "../Animatednumbers/AnimatedNumbers";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const About = () => {
+  AOS.init();
   return (
     <>
       <div className="aboutmain">
         <div className="abouttitle">
-        <h2>Passion Fuels Purpose! </h2>
+        <h2 data-aos="fade-up">Passion Fuels Purpose! </h2>
         </div>
+
+
+        <div className="animatednumbers">
+          <div className="number1">
+            <div  className="animate">
+              <AnimatedNumbers value={50} style={{ fontSize: '24px', color: '#007bff' }}  />
+              <span>+</span>
+            </div>
+
+            <h2>Satisfied Clients</h2>
+          </div>
+          <div className="number2">
+            <div className="animate">
+              <AnimatedNumbers value={20} />
+              <span>+</span>
+            </div>
+            <h2> Projects </h2>
+          </div>
+          <div className="number3">
+            <div  className="animate">
+              <AnimatedNumbers value={1} />
+              <span>+</span>
+            </div>
+            <h2> Experience </h2>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div className="aboutdiv">
           <div className="abouttext">
             <h4>BIOGRAPHY:</h4>
@@ -42,30 +85,10 @@ const About = () => {
           </div>
         </div>
 
-        <div className="animatednumbers">
-          <div className="number1">
-            <div>
-              <AnimatedNumbers value={50} />
-              <span>+</span>
-            </div>
+    
 
-            <h2>Satisfied Clients</h2>
-          </div>
-          <div className="number2">
-            <div>
-              <AnimatedNumbers value={20} />
-              <span>+</span>
-            </div>
-            <h2> Projects </h2>
-          </div>
-          <div className="number3">
-            <div>
-              <AnimatedNumbers value={1} />
-              <span>+</span>
-            </div>
-            <h2> Experience </h2>
-          </div>
-        </div>
+
+
       </div>
     </>
   );

@@ -59,6 +59,9 @@ p{
   color :    #7a7a7a
 }
 
+.number1 > h2{    color: rgb(177, 178, 179);}
+.number2 > h2{    color: rgb(177, 178, 179);}
+.number3 > h2{    color: rgb(177, 178, 179);}
 
 @media screen and (max-width: 760px) {
     .aboutmain {
@@ -105,25 +108,59 @@ p{
     font-size: 22px;
     font-weight: 600;
   }
+  .animate > span{
+    color: rgb(133, 76, 230);
+      font-size: 40px;
 
+  }
   .number1{
+  
+    background-color: rgb(23, 23, 33);
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 12px 4px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 
-    border: 1px solid rgb(133, 76, 230);;
-    border-radius: 8px ;
+ 
+    transition: all 0.5s ease-in-out 0s;
+  
+     border-radius: 8px ;
     padding: 20px;
   }
 
   .number2{
 
-    border: 1px solid rgb(133, 76, 230);;
-    border-radius: 8px ;
+    background-color: rgb(23, 23, 33);
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 12px 4px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+ 
+    transition: all 0.5s ease-in-out 0s;
+  
+     border-radius: 8px ;
     padding: 20px;
   }
 
+
+   #animate{
+    color: #639cd9;
+   }
   .number3{
 
-    border: 1px solid rgb(133, 76, 230);;
-    border-radius: 8px ;
+    background-color: rgb(23, 23, 33);
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 12px 4px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+ 
+    transition: all 0.5s ease-in-out 0s;
+  
+     border-radius: 8px ;
     padding: 20px;
   }
 
@@ -146,6 +183,7 @@ p{
   span{
     font-size: 30px;
     font-weight: 600;
+    color: #639cd9;
   }
 
   .number1{
