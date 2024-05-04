@@ -202,8 +202,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #639cd9;
-    border-radius: 8px ;
+     border-radius: 8px ;
     padding: 20px;
   }
 
