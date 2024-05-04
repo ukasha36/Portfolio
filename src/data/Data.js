@@ -118,7 +118,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "/src/assets/lets.jpg",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmliLw33o-CTQ29k8NbMArjMw1heW3slUSNh-W-QdjlK2k0PNj96DjdS5LV9y17bR8gws&usqp=CAU",
       role: "Frontend Engineer Intern",
       company: "Lets Grow More",
       date: "July 2023 - Aug 2023",

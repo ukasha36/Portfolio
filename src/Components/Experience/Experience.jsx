@@ -2,7 +2,7 @@ import React from "react";
 import "./Experience.css";
 import { experiences } from "../../data/Data.js";
 import ExperienceItem from "./ExperienceItem.jsx";
-
+  
 const Experience = () => {
   return (
     <>
