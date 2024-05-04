@@ -133,7 +133,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "/src/assets/innovativetech.jpg",
+      img: "https://innovativetech.vercel.app/static/media/companylogo.9d0b65a8f2468f7181be.jpg",
       role: " Web Developer",
       company: "Innovative Tech",
       date: "Aug 2023 - Feb 2024",
@@ -149,7 +149,7 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "src/assets/social.jpeg",
+      img: "https://media.licdn.com/dms/image/D560BAQGXiRzaEERI4g/company-logo_200_200/0/1711178738517?e=2147483647&v=beta&t=8MFqhTFzUWfW-rLQ2BF9vWp89PHwim32YPISSkgCxjw",
       role: "Open Source Contributor ",
       company: "Social  Summer of Code",
       date: "June 2023 - July 2023",
