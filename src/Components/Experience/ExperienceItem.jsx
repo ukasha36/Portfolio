@@ -1,10 +1,12 @@
 import React from 'react'
 import "./Experience.css";
  
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const ExperienceItem = ({experiences}) => {
 
+    AOS.init();
 
  
 
@@ -31,7 +33,7 @@ switch (val.id) {
 
 
               return (
-                <div className={ `${boxColorClass}`} key={idx}>
+                <div className={ `${boxColorClass}`} key={idx} data-aos="fade-up">
                 <div  className="jobbox">
                   <ul className="jobul">
                     <div className="jobtitle">

@@ -134,20 +134,20 @@ b{
      width: 600px;
     display: flex;
     justify-content: flex-end;
-    height: 554px;
+    height: 500px;
 }
 .blue-box{
      width: 1300px;
         display: flex;
     justify-content: flex-end;
-    height: 554px;
+    height: 500px;
 }
 .yellow-box {
      height: 100px;
     width: 600px;
     display: flex;
     justify-content: flex-end;
-    height: 554px;
+    height: 500px;
 }
 
 

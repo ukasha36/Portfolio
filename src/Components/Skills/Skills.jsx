@@ -1,5 +1,7 @@
 import React from "react";
 import "./Skills.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import rect from "../../assets/react.png";
 import redux from "../../assets/redux.svg";
 import next from "../../assets/next.png";
@@ -15,11 +17,13 @@ import Firebase from "../../assets/firebase.svg";
 import c from "../../assets/C.jpeg";
 
 const Skills = () => {
+  AOS.init();
+
   return (
     <>
       <div className="mainskills">
-        <div className="skillstitle">
-        <h2> Skills</h2>
+        <div className="skillstitle" data-aos="fade-down"> 
+        <h2 > Skills</h2>
         <p>
           Here are some of my skills on which I have been working on for the
           past 3 years.{" "}
@@ -27,7 +31,7 @@ const Skills = () => {
         </div>
         <div className="skillsdiv">
 
-          <div className="frontend">
+          <div className="frontend" data-aos="fade-right">
             <div className="frontendtitle">
               <h2> Frontend </h2>
             </div>
@@ -67,7 +71,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="frontend">
+          <div className="frontend" data-aos="fade-left"> 
             <div className="frontendtitle">
               <h2> Backend</h2>
             </div>

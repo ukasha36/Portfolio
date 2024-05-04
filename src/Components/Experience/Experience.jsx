@@ -2,8 +2,12 @@ import React from "react";
 import "./Experience.css";
 import { experiences } from "../../data/Data.js";
 import ExperienceItem from "./ExperienceItem.jsx";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
   
 const Experience = () => {
+  AOS.init();
+
   return (
     <>
       <div className="mainexperience">
@@ -14,7 +18,7 @@ const Experience = () => {
             companies and projects.
           </p>
         </div>
-        <div className="experiencediv">
+        <div className="experiencediv" >
           <div className="jobs">
             <div className="verticalline"></div>
                  <ExperienceItem   experiences={experiences} />
