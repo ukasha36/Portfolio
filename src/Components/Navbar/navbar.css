@@ -13,6 +13,8 @@
     background-color: #0000007e;
     backdrop-filter: blur(7px);
     transition: all 500ms;
+    z-index: 10;
+
   }
   
   .openNav {

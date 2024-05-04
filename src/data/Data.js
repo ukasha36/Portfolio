@@ -122,11 +122,12 @@ export const Bio = {
       role: "Frontend Engineer Intern",
       company: "Lets Grow More",
       date: "July 2023 - Aug 2023",
-      desc: "Working on the frontend of the web application using Html , CSS & JavaScript",
+      desc: "Working on the frontend of the web application using HTML, CSS, and JavaScript. Collaborating with the design team to implement user interfaces and enhance user experience. Utilizing modern frameworks and libraries such as React.js to develop responsive and interactive components.",
       skills: [
         "HTML",
         "CSS",
         "JavaScript",
+        "Bootstrap"
       ],
       doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
     },
@@ -134,27 +135,32 @@ export const Bio = {
       id: 1,
       img: "/src/assets/innovativetech.jpg",
       role: " Web Developer",
-      company: "Flipr",
-      date: "June 2023 - July 2023",
-      desc: "Implemented responsive design principles to ensure mobile  compatibility of websites using React & NextJS.",
+      company: "Innovative Tech",
+      date: "Aug 2023 - Feb 2024",
+      desc: " implement user interfaces to enhance user experience. With expertise in React.js and Next.js, I develop responsive and interactive components, leveraging Next.js for server-side rendering and routing to optimize performance and navigation.",
       skills: [
         "ReactJS",
         "Redux",
-        "Material UI",
-        "HTML",
-        "CSS",
+        "NextJS",
+        "MaterialUI",
         "JavaScript",
-        "Tailwind CSS"
+        "TailwindCSS"
       ],
     },
     {
       id: 2,
-      img: "https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1555704980721?e=1692835200&v=beta&t=FjOWcUVVNzqFbTmmp0iXQkv5keBQC5lxIQ7K6rmMSMQ",
+      img: "src/assets/social.jpeg",
       role: "Open Source Contributor ",
-      company: "GirlScript Summer of Code",
-      date: "May 2023 - Present",
-      desc: "Contributing to different open-source projects and learn from industry experts",
-      doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+      company: "Social  Summer of Code",
+      date: "June 2023 - July 2023",
+      desc: "As a contributor to Social Summer of Code, I had the privilege of collaborating with a diverse team on projects aimed at creating positive societal change. This experience allowed me to gain valuable insights into the transformative potential of technology and learn from industry experts",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "React JS"
+      ],
     },
   ];
   
