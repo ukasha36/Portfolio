@@ -1,5 +1,10 @@
 
 import innovative from '../assets/innovativetech.jpg'
+import american from '../assets/american.png'
+import trendify from '../assets/trendify.png'
+import bmi from '../assets/bmi.png'
+import resturant from '../assets/resturant.png'
+import stopwatch from '../assets/stopwatch.png'
 
 
 export const Bio = {
@@ -184,7 +189,7 @@ export const projects = [
     date: "April 2024",
     description:
       "Trendify: an online ecommerce hub simplifying shopping with product listing, easy addition, and more. Revolutionizing online retail with intuitive features for modern consumers.",
-    image: "/src/assets/trendify.png",
+    image: trendify,
     tags: ["React Js", "Redux", "Firebase"],
     category: "web app",
     github: "https://github.com/ukasha36/React-Firebase",
@@ -196,7 +201,7 @@ export const projects = [
     date: "Feb 2024",
     description:
       "Developed a web app for American Web Express, enabling users to review services, enhancing engagement and satisfaction.      ",
-    image: "/src/assets/american.png",
+    image: american,
     tags: ["Html  ", "Css", "TailwindCss", "NextJs", "EmailJS "],
     category: "web app",
     webapp: "americanwebexpress.com",
@@ -218,7 +223,7 @@ export const projects = [
     date: "Feb 2024",
     description:
       "Built a responsive BMI Calculator web app using React.js, offering users a user-friendly interface to input their height and weight and obtain accurate BMI results instantly..",
-    image: "/src/assets/bmi.png",
+    image: bmi,
     tags: ["Html  ", "Css", "TailwindCss", "ReactJS "],
     category: "web app",
     webapp: "americanwebexpress.com",
@@ -229,7 +234,7 @@ export const projects = [
     date: " Sep - 2023",
     description:
       "Crafted Salt'n Pepper restaurant's website, showcasing its culinary offerings with an immersive, responsive design for enhanced user engagement.",
-    image: "/src/assets/resturant.png",
+    image: resturant,
     tags: ["Html", "Css", "Bootstrap", "Javascript"],
     category: "web app",
     github: "https://github.com/ukasha36/Resturant-Website",
@@ -242,7 +247,7 @@ export const projects = [
     date: " Sep - 2023",
     description:
       "Designed and developed a sleek stopwatch application with precision timing features, ensuring optimal user experience across devices. Built using modern web technologies for seamless performance.",
-    image: "/src/assets/stopwatch.png",
+    image: stopwatch,
     tags: ["Html", "Css", "Bootstrap", "Javascript"],
     category: "web app",
     github: "https://github.com/ukasha36/Resturant-Website",
