@@ -63,7 +63,7 @@
 }
 
 h3{
-  color: #639cd9;
+  color: rgb(133, 76, 230);
 }
 .navul li::after {
     content: ''; /* Create a pseudo-element */
