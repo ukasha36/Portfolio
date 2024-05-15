@@ -14,6 +14,8 @@ import Node from "../../assets/nodejs.png";
 import Java from "../../assets/java.png";
 import mysql from "../../assets/mysql.png";
 import Firebase from "../../assets/firebase.svg";
+import Express from "../../assets/express.png";
+import Mongo from "../../assets/monodb.png";
 import c from "../../assets/C.jpeg";
 
 const Skills = () => {
@@ -79,6 +81,14 @@ const Skills = () => {
               <div className="react">
                 <img src={Node} alt="" className="reactimg" />
                 Node JS
+              </div>
+              <div className="react">
+                <img src={Express} alt="" className="reactimg" />
+                Express JS
+              </div>
+              <div className="react">
+                <img src={Mongo} alt="" className="reactimg" />
+                Mongo DB
               </div>
               <div className="react">
                 <img src={Firebase} alt="" className="reactimg" />
