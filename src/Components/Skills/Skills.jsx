@@ -1,22 +1,23 @@
-import React from "react";
 import "./Skills.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import rect from "../../assets/react.png";
-import redux from "../../assets/redux.svg";
-import next from "../../assets/next.png";
-import html from "../../assets/html.png";
-import css from "../../assets/css.png";
-import js from "../../assets/js.png";
-import bootstrap from "../../assets/bootstrap.png";
-import material from "../../assets/material.png";
-import Node from "../../assets/nodejs.png";
-import Java from "../../assets/java.png";
-import mysql from "../../assets/mysql.png";
-import Firebase from "../../assets/firebase.svg";
-import Express from "../../assets/express.png";
-import Mongo from "../../assets/monodb.png";
-import c from "../../assets/C.jpeg";
+import rect from "/react.png";
+import redux from "/redux.svg";
+import next from "/next.png";
+import html from "/html.png";
+import css from "/css.png";
+import js from "/js.png";
+import bootstrap from "/bootstrap.png";
+import material from "/material.png";
+import Node from "/nodejs.png";
+import Java from "/java.png";
+import mysql from "/mysql.png";
+import Firebase from "/firebase.svg";
+import Express from "/express.png";
+import Mongo from "/monodb.png";
+import c from "/C.jpeg";
+import redis from '/redis.png'
+import shadcn from '/shadcn.png'
 
 const Skills = () => {
   AOS.init();
@@ -70,6 +71,10 @@ const Skills = () => {
                 <img src={material} alt="" className="reactimg" />
                 Material UI
               </div>
+              <div className="react">
+                <img src={shadcn} alt="" className="reactimg" />
+                Shadcn
+              </div>
             </div>
           </div>
 
@@ -89,6 +94,10 @@ const Skills = () => {
               <div className="react">
                 <img src={Mongo} alt="" className="reactimg" />
                 Mongo DB
+              </div>
+              <div className="react">
+                <img src={redis} alt="" className="reactimg" />
+                Redis
               </div>
               <div className="react">
                 <img src={Firebase} alt="" className="reactimg" />

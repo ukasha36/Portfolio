@@ -41,6 +41,33 @@ const Projects = () => {
                   <li className="jobli projectdate">{val.date}</li>
                 </div>
                 <li className="jobli jobdesc">{val.description}</li>
+                <li className="jobli jobdesc"> Link: <a href={val.webapp} target="_blank"  className=""> {val.webapp}</a></li>
+              </ul>
+            </div>
+          ))}
+        </div>
+        <div className="project-row">
+          {projects.slice(3 , 6).map((val, idx) => (
+            <div className="projectbox" data-aos="fade-up" key={idx}>
+              <ul className="projectul">
+                <div>
+                  <img src={val.image} alt={val.title} className="projectimg" />
+                </div>
+                <li className="jobli"> 
+                  {val.tags && (
+                    <ul className="tagsli">
+                      {val.tags.map((el, i) => (
+                        <li key={i}>{el}</li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+                <div className="jobdetails">
+                  <li className="jobli projectrole">{val.title}</li>
+                  <li className="jobli projectdate">{val.date}</li>
+                </div>
+                <li className="jobli jobdesc">{val.description}</li>
+                <li className="jobli jobdesc">Link: <a href={val.webapp} target="_blank"  className=""> {val.webapp}</a></li>
               </ul>
             </div>
           ))}
@@ -48,7 +75,7 @@ const Projects = () => {
 
         {/* Render the remaining project boxes */}
         <div className="project-row" >
-          {projects.slice(3).map((val, idx) => (
+          {projects.slice(6 , 8).map((val, idx) => (
             <div className="projectbox" data-aos="fade-up" key={idx + 3}>
               <ul className="projectul">
                 <div>
@@ -68,6 +95,7 @@ const Projects = () => {
                   <li className="jobli projectdate">{val.date}</li>
                 </div>
                 <li className="jobli jobdesc">{val.description}</li>
+                <li className="jobli jobdesc"> Link: <a href={val.webapp} target="_blank" className=""> {val.webapp} </a></li>
               </ul>
             </div>
           ))}

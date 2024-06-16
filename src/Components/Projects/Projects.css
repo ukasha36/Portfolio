@@ -8,13 +8,11 @@
     padding-top: 2rem;
     gap: 60px;
 }
-.skillstitle{
-
-}
+ 
 
 .projectbox{
     width: 330px;
-    height: 490px;
+    height: 520px;
     background-color: rgb(23, 23, 33);
     cursor: pointer;
     border-radius: 10px;
@@ -86,7 +84,13 @@
     justify-content: space-evenly;
 }
 
+.jobli > a {
 
+    color: blueviolet;
+    font-size: 13px;
+
+
+}
 
 @media screen and (max-width: 760px) {
 
@@ -95,7 +99,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 250rem;
+        height: 310rem;
         background-color: #212529;
         padding-top: 2rem;
         gap: 60px;

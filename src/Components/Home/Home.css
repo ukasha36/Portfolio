@@ -20,6 +20,7 @@
   cursor: pointer;
   color: rgb(133, 76, 230);/* Adjust size as needed */
     font-weight: 600;
+    font-size: 35px;
   }
 .Typewriter__cursor {
     color: rgb(133, 76, 230);; /* Adjust size as needed */
@@ -55,13 +56,20 @@
   }
     
   .title{
-    font-size: 30px;
+    font-size: 25px;
         line-height: 48px;
         color: rgb(242, 243, 244);
  
         
  
   } 
+
+  .Typewriter__wrapper {
+    cursor: pointer;
+    color: rgb(133, 76, 230);/* Adjust size as needed */
+      font-weight: 600;
+      font-size: 25px;
+    }
   }
   .title{
     font-size: 22px;

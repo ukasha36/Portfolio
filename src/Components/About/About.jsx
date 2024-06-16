@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import img from "../../assets/ukasha.jpg";
+import img from "/ukasha.jpg";
 import AnimatedNumbers from "../Animatednumbers/AnimatedNumbers";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 

@@ -11,10 +11,10 @@ const Home = () => {
     <div className='maindiv'>
       <h1>Muhammad Ukasha</h1>
       <div className='typewriter'>
-       <p className='title'> I am a </p>
+       <p className='title'>I am a</p>
       <Typewriter
         options={{
-          strings: [ " Developer" , " Programmer" , " AI enthusiast",  " Freelancer" ],
+          strings: [ "FullStack Developer" , "MernStack Developer" , " Software Developer",  " Freelancer" ],
           autoStart: true,
           loop: true,
         }}
